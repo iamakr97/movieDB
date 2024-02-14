@@ -1,0 +1,24 @@
+.upcomig-container {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 1080px;
+    margin: 1rem auto;
+    gap: 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.upcoming-title {
+    position: relative;
+    width: 90%;
+    max-width: 1080px;
+    margin: 1rem auto;
+    text-align: left;
+}
+@media (max-width:500px) {
+    .upcoming-title{
+        text-align: center;
+    }
+}

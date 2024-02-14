@@ -1,0 +1,74 @@
+.header-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    max-width: 1080px;
+    margin: 1rem auto;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    /* border: 2px solid red; */
+}
+
+.nav-items {
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 400;
+    
+}
+
+.nav-items:hover {
+    color: red;
+}
+
+.imdbLogo {
+    height: 2rem;
+}
+
+
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 2.5rem;
+    
+}
+#search-id{
+    display: block;
+    height: 2rem;
+    width: 30rem;
+    border-radius: 8px;
+    border: none;
+    text-align: left;
+    padding-left: 1rem;
+    color: black;
+    font-size: 1.2rem;
+    
+}
+#submit-btn{
+    display: block;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: red;
+}
+@media (max-width:768px) {
+    .header-container{
+        width: 95%;
+    }
+    #search-id{
+        width: 50%;
+    }
+    .search-container{
+        display: none;
+    }
+}

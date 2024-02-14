@@ -1,0 +1,13 @@
+.movie-details-container{
+    color: white;
+}
+.movie-details-container button{
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: rgb(134, 134, 134);
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 8px;
+}
